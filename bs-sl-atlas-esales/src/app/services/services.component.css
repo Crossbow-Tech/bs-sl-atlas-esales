@@ -1,0 +1,25 @@
+.services-text-container{
+    background-color: #fafafa;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.services-card-content{
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.services-card{
+    max-width: 250px;
+    margin: 1rem;
+  }
+  
+ .services-button-spacer{
+  float: right;
+  margin-right: 0.5rem;
+}
+
+ 
