@@ -7,8 +7,10 @@
 }
 
 .category-card-content{
+  font-size: 0.8rem;
   text-align: center;
-  font-size: 1.1rem;
+}
+.category-card-content-resalt{
   font-weight: bold;
 }
 
@@ -20,4 +22,9 @@
  .category-button-spacer{
   float: right;
   margin-right: 0.5rem;
+}
+.category-button {
+  max-width: 100%;
+  width: 100%;
+  margin: 1rem;
 }
