@@ -1,0 +1,13 @@
+.information-card {
+    margin: 1rem;
+  }
+  
+  .information-header-sales {
+    background-image: url('/assets/img/information/phone.png');
+    background-size: cover;
+  }
+
+  .information-header-security {
+    background-image: url('/assets/img/information/security.png');
+    background-size: cover;
+  }
