@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "atlas-esales": {
+    "bs-sl-atlas-esales": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/atlas-esales",
+            "outputPath": "dist/bs-sl-atlas-esales",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,18 +69,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "atlas-esales:build"
+            "browserTarget": "bs-sl-atlas-esales:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "atlas-esales:build:production"
+              "browserTarget": "bs-sl-atlas-esales:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "atlas-esales:build"
+            "browserTarget": "bs-sl-atlas-esales:build"
           }
         },
         "test": {
@@ -117,15 +117,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "atlas-esales:serve"
+            "devServerTarget": "bs-sl-atlas-esales:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "atlas-esales:serve:production"
+              "devServerTarget": "bs-sl-atlas-esales:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "atlas-esales"
+  "defaultProject": "bs-sl-atlas-esales"
 }

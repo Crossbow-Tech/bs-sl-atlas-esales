@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'atlas-esales'`, () => {
+  it(`should have as title 'bs-sl-atlas-esales'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('atlas-esales');
+    expect(app.title).toEqual('bs-sl-atlas-esales');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('atlas-esales app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('bs-sl-atlas-esales app is running!');
   });
 });
